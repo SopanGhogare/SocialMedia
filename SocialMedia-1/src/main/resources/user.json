@@ -1,0 +1,13 @@
+Request URL : http://localhost:8080/user/1
+
+Response :  {
+    "userId": 1,
+    "userName": "Ramesh",
+    "password": "$2a$10$Dg3nexRkS7xm60EzHIdPpehuXaRpDC0m0oFz.eUIWQiEQn66BdRwi",
+    "role": "ROLE_ADMIN",
+    "fullName": "Ramesh Raut",
+    "country": "india",
+    "enabled": 1
+}
+
+http://localhost:8080/user/delete/1
