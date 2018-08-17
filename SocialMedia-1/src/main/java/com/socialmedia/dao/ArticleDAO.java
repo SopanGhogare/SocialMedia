@@ -12,7 +12,7 @@ import com.socialmedia.entity.Article;
 
 @Transactional
 @Repository
-public class ArticleDAO/* implements IArticleDAO */ {
+public class ArticleDAO {
 	@PersistenceContext
 	private EntityManager entityManager;
 

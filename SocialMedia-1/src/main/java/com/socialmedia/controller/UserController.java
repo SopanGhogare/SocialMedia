@@ -26,15 +26,15 @@ public class UserController {
 	private UserService userService;
 
 	@GetMapping("{id}")
-	public ResponseEntity<User> getUserById(@PathVariable("id") Integer id) {
+	public User getUserById(@PathVariable("id") Integer id) {
 		User user = userService.getUserById(id);
-		return new ResponseEntity<User>(user, HttpStatus.OK);
+		return user;
 	}
 
 	@GetMapping("allusers")
-	public ResponseEntity<List<User>> getAllUsers() {
+	public List<User> getAllUsers() {
 		List<User> list = userService.getAllUsers();
-		return new ResponseEntity<List<User>>(list, HttpStatus.OK);
+		return list;
 	}
 
 	@PostMapping("add")

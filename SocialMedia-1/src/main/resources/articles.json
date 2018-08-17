@@ -1,4 +1,4 @@
-Request URL : http://localhost:8080/allarticles
+Request URL : http://localhost:8080/article/allarticles
 
 Response :  [{"articleId":1,"title":"Core JAva","category":"Java"},{"articleId":2,"title":"Core Spring","category":"Spring"}]
 
